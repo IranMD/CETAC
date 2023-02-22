@@ -1,0 +1,13 @@
+.fondo {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 450px;
+    z-index: 1;
+}
+
+.image-size {
+    width: 100% !important;
+    height: 400px !important;
+}
