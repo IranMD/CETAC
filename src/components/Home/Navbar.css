@@ -1,5 +1,11 @@
 .menu{
     align-items: center;
-    background-color: black !important;
-
+    background-color: transparent!important;
+    z-index: 3;
+    position: absolute;
+}
+.texto{
+    color: white !important;
+    z-index: 2;
+    text-align: center !important;
 }

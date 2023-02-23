@@ -1,6 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import "./Slider.css"
 import fondo from './Imagenes/Slider.png'
+import example from './Imagenes/example.png'
 
 function Slider() {
   return (
@@ -11,7 +12,7 @@ function Slider() {
       <Carousel.Item>
         <img
           className="image-size"
-          src="https://tvazteca.brightspotcdn.com/38/e6/7b33cdd042d5a378d56a7f81fa73/perritos-primeros-auxilios.jpg"
+          src={example}
           alt="Second slide"
         />
 
@@ -25,12 +26,11 @@ function Slider() {
       <Carousel.Item>
         <img
           className="image-size"
-          src="https://tvazteca.brightspotcdn.com/38/e6/7b33cdd042d5a378d56a7f81fa73/perritos-primeros-auxilios.jpg"
+          src={example}
           alt="Third slide"
-          height={400}
         />
 
-        <Carousel.Caption>
+        <Carousel.Caption className='texto-slider'>
           <h3>Third slide label</h3>
           <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.

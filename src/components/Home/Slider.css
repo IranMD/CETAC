@@ -9,5 +9,9 @@
 
 .image-size {
     width: 100% !important;
-    height: 400px !important;
+    z-index: -1;
+}
+
+.texto-slider {
+    z-index: 2;
 }
