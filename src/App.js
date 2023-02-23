@@ -9,9 +9,6 @@ function App() {
     <>
      <Menu></Menu>
      <Slider></Slider>
-     <Cetac></Cetac>
-     <Descripcion></Descripcion>
-     
     </>
    
     

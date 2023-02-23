@@ -2,6 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import "./Slider.css"
 import fondo from './Imagenes/Slider.png'
 import example from './Imagenes/example.png'
+import { Row } from 'react-bootstrap';
 
 function Slider() {
   return (
@@ -16,7 +17,7 @@ function Slider() {
           alt="Second slide"
         />
 
-        <Carousel.Caption>
+        <Carousel.Caption className='texto-slider'>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
@@ -38,6 +39,9 @@ function Slider() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    <Row className='notificationBar'>
+      <p className='notificationText'> Próximas inscripciones 14 de febrero del año en curso</p>
+    </Row>
     </>
   );
 }

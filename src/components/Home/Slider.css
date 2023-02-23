@@ -18,3 +18,20 @@
 .texto-slider {
     z-index: 2;
 }
+
+.notificationBar{
+    background-color: #283792;
+    color: white;
+    padding: 0px !important;
+    width: 100%;
+    margin: 0px !important;
+}
+
+.notificationText{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0px !important;
+    font-size: 14px;
+   display: flex;
+   justify-content: center;
+}
