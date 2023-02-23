@@ -3,13 +3,16 @@
     width: 100%;
     top: 0px;
     left: 0px;
-    height: 450px;
+   
     z-index: 1;
+    line-height: 0;
+    display: block;
 }
 
 .image-size {
     width: 100% !important;
     z-index: -1;
+
 }
 
 .texto-slider {
