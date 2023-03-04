@@ -8,7 +8,7 @@ import './Navbar.css';
 
 function Menu() {
   return (
-    <Navbar  className="menu">
+    <Navbar bg="light" expand="lg" className="menu">
       <Container className='menu-container'>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
