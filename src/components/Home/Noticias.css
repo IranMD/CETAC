@@ -1,0 +1,14 @@
+.seccion-noticias{
+    background-color: #283792;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+ 
+}
+
+.card-noticia{
+    margin: 20px !important;
+    width: 29% !important;
+}
+

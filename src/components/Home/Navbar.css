@@ -1,11 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
 .menu{
-    align-items: center;
-    background-color: transparent!important;
+    background-color: transparent !important;
     z-index: 3;
     position: absolute;
+    padding-left: 30px !important;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
 }
+
+
 .texto{
     color: white !important;
     z-index: 2;
     text-align: center !important;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin-top: 20px ;
+    margin-right: 10px !important;
+    padding: 0px !important;
 }
+
+.dropdown{
+    font-family:  'Inter', sans-serif;
+    font-size: 20px;
+    margin-top: 20px ;
+}
+.nav-link{
+    color: white !important;
+}
+
+.dropdown-menu{
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.dropdown-item{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+.dropdown-divider{
+    border-color: white;
+}
+
+.logo-cetac{
+    width: 70px !important;
+}
+
+.menu-container{
+    z-index: 3;
+    width: auto;
+    padding: 0px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
