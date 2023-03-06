@@ -5,6 +5,7 @@ import Cetac from './components/Home/SeccionCetac';
 import OfertaEducativa from './components/Home/OfertaEducativa';
 import Ubicacion from './components/Home/Ubicacion';
 import Noticias from './components/Home/Noticias';
+import Footer from './components/Home/Footer';
 
 
 
@@ -15,8 +16,9 @@ function App() {
      <Slider></Slider>
      <Cetac></Cetac>
      <OfertaEducativa></OfertaEducativa>
-     <Ubicacion></Ubicacion>
      <Noticias></Noticias>
+     <Ubicacion></Ubicacion>
+     <Footer></Footer>
     </>
    
     

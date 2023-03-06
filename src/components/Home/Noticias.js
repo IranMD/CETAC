@@ -2,10 +2,17 @@ import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
 import './Noticias.css';
 
 function Noticias() {
     return (
+        <>
+    <Container>
+        <Row className='justify-content-center'>
+          <p className='sub-section'>NOTICIAS</p>
+        </Row>
+    </Container>
         <Carousel>
             <Carousel.Item className='row-noticias'>
                 <Row className='seccion-noticias'>
@@ -103,6 +110,7 @@ function Noticias() {
 
 
         </Carousel>
+        </>
     );
 }
 
