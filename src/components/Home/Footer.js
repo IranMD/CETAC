@@ -18,14 +18,14 @@ function Footer() {
 
         <Col>
           <div>
-            <p>ACERCA DE</p>
+            <p className='sub'>ACERCA DE</p>
             <p> </p>
           </div>
         </Col>
 
         <Col>
           <div>
-            <p>OFERTA ACADÉMICA</p>
+            <p className='sub'>OFERTA ACADÉMICA</p>
             <p> </p>
           </div>
         </Col>
@@ -33,14 +33,14 @@ function Footer() {
                 
         <Col>
           <div>
-            <p>ASPIRANTES</p>
+            <p className='sub'>ASPIRANTES</p>
             <p> </p>
           </div>
         </Col>
 
         <Col>
           <div>
-            <p>ALUMNOS</p>
+            <p className='sub'>ALUMNOS</p>
             <p> </p>
           </div>
         </Col>
