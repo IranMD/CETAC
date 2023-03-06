@@ -8,7 +8,7 @@ import logo from './Imagenes/LogoFooter.png'
 function Footer() {
   return (
     <>
-      <Row className='footer'>
+      <Row className='section-footer'>
 
         <Col>
             <Image src={logo} className='logo-footer'>
@@ -25,7 +25,7 @@ function Footer() {
 
         <Col>
           <div>
-            <p>OFERTA ACDÉMICA</p>
+            <p>OFERTA ACADÉMICA</p>
             <p> </p>
           </div>
         </Col>
