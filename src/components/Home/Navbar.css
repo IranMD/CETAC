@@ -4,10 +4,9 @@
     background-color: transparent !important;
     z-index: 3;
     position: absolute;
-    padding-left: 30px !important;
-    padding-right: 30px;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 
@@ -18,7 +17,8 @@
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     margin-top: 20px ;
-    margin-right: 10px !important;
+    margin-right: 15px !important;
+    margin-left: 15px !important;
     padding: 0px !important;
 }
 
@@ -29,6 +29,7 @@
 }
 .nav-link{
     color: white !important;
+    padding: 0px !important;
 }
 
 .dropdown-menu{
@@ -60,5 +61,10 @@
     align-items: center;
     justify-content: center;
    
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    justify-content: center !important;
 }
 
