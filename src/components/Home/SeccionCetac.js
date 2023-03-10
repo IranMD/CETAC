@@ -6,7 +6,7 @@ import './SeccionCetac.css';
 function SeccionCetac() {
   return (
     <>
-      <header className='title'>Bachillerato Tecnólogico</header>
+      <header className='title'>Bachillerato Tecnológico</header>
       <Container>
         <Row className='justify-content-center'>
           <p className='sub-section'>CONOCE NUESTRAS INSTALACIONES</p>

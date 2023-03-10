@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import './Footer.css';
 import logo from './Imagenes/LogoFooter.png'
-import { ArrowRight, Facebook, Instagram, Phone, TelephoneFill, Whatsapp } from 'react-bootstrap-icons';
+import { ArrowRight, Facebook, Instagram, Phone, TelephoneFill, Tiktok, Whatsapp, Youtube } from 'react-bootstrap-icons';
 
 function Footer() {
   return (
@@ -19,10 +19,19 @@ function Footer() {
         </Container>
 
         <Container className='group-icons'>
-          <Facebook className='icons'/>
-          <Instagram className='icons'/>
-          <Whatsapp className='icons'/>
-          <TelephoneFill className='icons'/>
+          <a href='https://www.facebook.com/CETAC05Oficial/?locale=es_LA'>
+            <Facebook className='icons' />
+          </a>
+          <a href="https://instagram.com/cetac05oficial?igshid=YmMyMTA2M2Y=">
+            <Instagram className='icons' />
+          </a>
+          <a href='https://www.tiktok.com/@cetac05oficial?_t=8aXNlEXKKz0&_r=1'>
+            <Tiktok className='icons' />
+          </a>
+          <a href='https://youtube.com/@cetac05gral.felipedejesusa48'>
+            <Youtube className='icons'/>
+          </a>
+          <TelephoneFill className='icons' />
         </Container>
       </Col>
 
