@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
-import './Noticias.css';
+import './Avisos.css';
 
 function Noticias() {
     return (

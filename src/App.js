@@ -4,8 +4,7 @@ import Menu from './components/Home/Navbar';
 import Cetac from './components/Home/SeccionCetac';
 import OfertaEducativa from './components/Home/OfertaEducativa';
 import Ubicacion from './components/Home/Ubicacion';
-import Noticias from './components/Home/Noticias';
-import CarruselNoticias from './components/Home/CarruselNoticias';
+import Avisos from './components/Home/Avisos';
 import Footer from './components/Home/Footer';
 
 
@@ -17,7 +16,7 @@ function App() {
      <Slider></Slider>
      <Cetac></Cetac>
      <OfertaEducativa></OfertaEducativa>
-     <CarruselNoticias/>
+     <Avisos/>
      <Ubicacion></Ubicacion>
      <Footer></Footer>
     </>

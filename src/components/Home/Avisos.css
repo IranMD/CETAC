@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+.seccion-noticias{
+    background-color: #283792;
+    padding: 100px;
+
+ 
+}
+
+.card-avisos{
+    background-color: transparent !important;
+    border-color: transparent;
+    width: 420px !important;
+}
+
+.cardBody-avisos{
+    padding: 0px !important;
+}
+
+.title-card-avisos{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.text-card-avisos{
+    color: #E7E7E7;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    
+}
+
