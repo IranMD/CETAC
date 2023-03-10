@@ -17,7 +17,6 @@ function App() {
      <Slider></Slider>
      <Cetac></Cetac>
      <OfertaEducativa></OfertaEducativa>
-     <Noticias></Noticias>
      <CarruselNoticias/>
      <Ubicacion></Ubicacion>
      <Footer></Footer>
