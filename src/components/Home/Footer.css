@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 .section-footer{
     margin-top: 70px !important;
@@ -47,4 +48,27 @@
     font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     color: #283792;
+}
+
+.links-footer{
+    color: #283792;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+.link-container{
+    margin-bottom: 0px !important;
+}
+
+.info-direccion{
+    color: #283792;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.p-direccion{
+    margin-bottom: 0px;
 }

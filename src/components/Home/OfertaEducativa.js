@@ -3,6 +3,10 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import recursosHidricos from './Imagenes/recursosHidricos.png'
+import acuacultura from './Imagenes/acuacultura.png'
+import logistica from './Imagenes/logistica.png'
+import recursosHumanos from './Imagenes/rec-humanos.png'
+import informacionGeografica from './Imagenes/info-geografica.png'
 import './OfertaEducativa.css';
 
 function OfertaEducativa() {
@@ -24,7 +28,7 @@ function OfertaEducativa() {
         </Card>
 
         <Card style={{ width: '18rem' }} className="card-oferta">
-          <Card.Img variant="top" src={recursosHidricos} className="icon" />
+          <Card.Img variant="top" src={acuacultura} className="icon" />
           <Card.Body>
             <Card.Header className='header-oferta'>Técnico en</Card.Header>
             <Card.Title className='title-oferta'>Acuacultura</Card.Title>
@@ -35,7 +39,7 @@ function OfertaEducativa() {
         </Card>
 
         <Card style={{ width: '18rem' }} className="card-oferta">
-          <Card.Img variant="top" src={recursosHidricos} className="icon" />
+          <Card.Img variant="top" src={logistica} className="icon" />
           <Card.Body>
             <Card.Header className='header-oferta'>Técnico en</Card.Header>
             <Card.Title className='title-oferta'>Logística</Card.Title>
@@ -48,7 +52,7 @@ function OfertaEducativa() {
 
       <Row className='info-oferta'>
         <Card style={{ width: '18rem' }} className="card-oferta">
-          <Card.Img variant="top" src={recursosHidricos} className="icon" />
+          <Card.Img variant="top" src={recursosHumanos} className="icon" />
           <Card.Body>
             <Card.Header className='header-oferta'>Técnico en</Card.Header>
             <Card.Title className='title-oferta'>Administración de Recursos Humanos</Card.Title>
@@ -59,7 +63,7 @@ function OfertaEducativa() {
         </Card>
 
         <Card style={{ width: '18rem' }} className="card-oferta">
-          <Card.Img variant="top" src={recursosHidricos} className="icon" />
+          <Card.Img variant="top" src={informacionGeografica} className="icon" />
           <Card.Body>
             <Card.Header className='header-oferta'>Técnico en</Card.Header>
             <Card.Title className='title-oferta'>Sistemas de Información Geográfica</Card.Title>
@@ -69,7 +73,6 @@ function OfertaEducativa() {
           </Card.Body>
         </Card>
       </Row>
-
     </Container>
   );
 }
