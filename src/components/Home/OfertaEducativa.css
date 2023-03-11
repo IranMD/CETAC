@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap');
 
 .icon{
     width: 100px;
@@ -13,7 +14,7 @@
 .card-oferta{
     align-items: center;
     border-color: transparent;
-    width: 370px !important;
+    width: 380px !important;
     align-self: center;
 }
 
@@ -30,10 +31,11 @@
     color: #828282;
     display: flex;
     justify-content: center;
-    font-weight: 300;
+    font-weight: 400;
     margin-top: 10px;
     background-color: transparent;
     border-bottom: none !important;
+    padding: 0px;
 }
 
 .title-oferta{
@@ -43,6 +45,8 @@
     text-align: center;
     font-weight: 700;
     margin-top: 10px;
+    margin-top: 3px;
+    margin-bottom: 7px;
 }
 
 
@@ -50,4 +54,5 @@
     font-family: 'Be Vietnam Pro', sans-serif;
     color: #828282;
     text-align: center;
+    font-weight: 300;
 }
