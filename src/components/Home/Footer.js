@@ -5,7 +5,8 @@ import Image from 'react-bootstrap/Image';
 import './Footer.css';
 import logo from './Imagenes/LogoFooter.png'
 import dgetacym from './Imagenes/dgetacym.png'
-import { ArrowRight, Facebook, Instagram, Phone, TelephoneFill, Tiktok, Whatsapp, Youtube } from 'react-bootstrap-icons';
+import sep from './Imagenes/sep.png'
+import { Facebook, Instagram, Phone, TelephoneFill, Tiktok, Youtube } from 'react-bootstrap-icons';
 
 function Footer() {
   return (
@@ -64,7 +65,7 @@ function Footer() {
             <a href='#' className='links-footer'>Acuacultura</a>
           </p>
           <p className='link-container'>
-            <a href='#' className='links-footer'>Logítica</a>
+            <a href='#' className='links-footer'>Logística</a>
           </p>
           <p className='link-container'>
             <a href='#' className='links-footer'>Administración de recursos humanos</a>
@@ -83,16 +84,13 @@ function Footer() {
             <a href='#' className='links-footer'>Convocatoria de admisión</a>
           </p>
           <p className='link-container'>
-            <a href='#' className='links-footer'>Acuacultura</a>
+            <a href='#' className='links-footer'>Inscripción nuevo ingreso</a>
           </p>
           <p className='link-container'>
-            <a href='#' className='links-footer'>Logística</a>
+            <a href='#' className='links-footer'>Resultados de admisión</a>
           </p>
           <p className='link-container'>
-            <a href='#' className='links-footer'>Administración de recursos humanos</a>
-          </p>
-          <p className='link-container'>
-            <a href='#' className='links-footer'>Sistemas de Información Geográfica</a>
+            <a href='#' className='links-footer'>Becas y apoyos</a>
           </p>
         </div>
       </Col>
@@ -119,14 +117,14 @@ function Footer() {
       </Col>
 
       <Row className='info-direccion'>
-        <Col>
+        <Col lg={7} className="col-direccion">
         <p className='p-direccion'>Hacienda Mesillas #421, Fracc.</p>
         <p className='p-direccion'>Haciendas de Aguascalientes, C.P. 20196,Aguascalientes, Ags.</p>
         </Col>
-        <Col>
-          <Image src={dgetacym}></Image>
+        <Col lg={3} className="logos-gob">
+          <Image src={dgetacym} className='logo-sep-dgetacym'></Image>
+          <Image src={sep} className='logo-sep-dgetacym'></Image>
         </Col>
-          
       </Row>
     </Row>
     

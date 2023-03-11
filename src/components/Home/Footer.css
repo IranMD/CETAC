@@ -67,8 +67,25 @@
     font-size: 19px;
     text-align: center;
     margin-top: 0px;
+    padding: 0px;
+    justify-content: end;
+    width: 100%;
 }
 
 .p-direccion{
     margin-bottom: 0px;
+}
+
+.logo-sep-dgetacym{
+    height: 50px;
+    padding-right: 3px;
+}
+
+.logos-gob{
+    padding: 0px;
+    float: left;
+}
+
+.col-direccion{
+    padding: 0px;
 }
